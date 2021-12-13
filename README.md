@@ -30,7 +30,7 @@ Libraries and technologies used:
 Every visit to KMM I discover new updates, this time I was thinking to use open API to be easier to fork and test, for those who are interested to test the KMM concept.
 
 ## :camera_flash: Screenshots
-<img src="/KMM_Android.gif" width="400">&emsp;<img src="/KMM_iOS.gif" width="400">
+<img src="/KMM_Android.png" width="400">&emsp;<img src="/KMM_iOS.gif" width="400">
 
 ## License
 ```
