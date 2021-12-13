@@ -21,7 +21,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.1.0-beta04"
+        kotlinCompilerExtensionVersion = "1.0.5"
     }
 }
 
@@ -41,7 +41,7 @@ dependencies {
     // Integration with ViewModels
     implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.4.0")
     // Livedata
-    implementation ("androidx.compose.runtime:runtime-livedata:1.1.0-beta04")
+    implementation ("androidx.compose.runtime:runtime-livedata:1.0.5")
     // Lifecycle
     implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.0")
     // Coil Library for image loading

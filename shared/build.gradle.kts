@@ -1,6 +1,7 @@
 plugins {
     kotlin("multiplatform")
     id("com.android.library")
+    kotlin("plugin.serialization")
 }
 
 kotlin {
@@ -82,4 +83,7 @@ android {
         minSdk = 25
         targetSdk = 31
     }
+}
+dependencies {
+    implementation("androidx.annotation:annotation:1.2.0")
 }

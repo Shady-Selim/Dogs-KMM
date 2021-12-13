@@ -25,7 +25,7 @@ class ApiImpl: Api  {
     }
 
     override suspend fun getDogs(breedId: Int): List<Dog> {
-        return httpClient.get("${baseUrl}images/search?breed_id=${breedId}&limit=102&page=0&order=asc")
+        return httpClient.get("${baseUrl}images/search?breed_id=${breedId}&limit=100&page=0&order=asc")
     }
 
 }
