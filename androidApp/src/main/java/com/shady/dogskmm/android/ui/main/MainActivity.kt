@@ -52,7 +52,7 @@ private fun MyApp(vm: MainViewModel = viewModel()) {
     var breedId by remember { mutableStateOf(-1) }
     val context = LocalContext.current
     Column(modifier = Modifier.padding(8.dp)) {
-        Text(text = "Select a dog bread", style = typography.h6)
+        Text(text = "Select a dog breed", style = typography.h6)
         Button(onClick = { expanded = !expanded }, modifier = Modifier
             .fillMaxWidth()
             .align(alignment = Alignment.Start),
