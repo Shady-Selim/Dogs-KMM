@@ -1,12 +1,8 @@
 package com.shady.dogskmm.android.ui.main
 
-import android.app.Activity
 import android.content.pm.ActivityInfo
-import android.content.res.Configuration
-import android.graphics.fonts.FontStyle
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
@@ -27,7 +23,6 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import coil.compose.rememberImagePainter
-import com.shady.dogskmm.android.ui.component.GridView
 import com.shady.dogskmm.android.ui.theme.DogsComposeTheme
 
 class MainActivity : AppCompatActivity() {
